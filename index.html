@@ -3,23 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Accessible</title>
-    <style>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        background-color: #f0f0f0;
-        font-family: Arial, sans-serif;
-      }
-      h1 {
-        color: #333;
-      }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio | Ebenezer</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Ça fonctionne !</h1>
+    <header>
+      <div class="container">
+        <h1>Ebenezer Nikabou</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="profile">
+          <img src="assets/img/IMG_1514.jpg" alt="user" class="profile-img" />
+          <p>
+            I'm a passionate Full Stack Developer with expertise in building
+            modern web applications using technologies like Spring Boot,
+            Angular, Vue.js, Flutter, and more. I love solving complex problems
+            and creating intuitive user experiences.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <div class="skill">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, Angular, Vue.js, Flutter</p>
+          </div>
+          <div class="skill">
+            <h3>Backend</h3>
+            <p>Java, Spring Boot, Node.js, Express</p>
+          </div>
+          <div class="skill">
+            <h3>Database</h3>
+            <p>PostgreSQL, MongoDB, MySQL</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-list">
+          <div class="project">
+            <h3>Project 1: GPT-Shell</h3>
+            <p>
+              An open-source CLI tool to interact with AI-based models from your
+              terminal.
+            </p>
+          </div>
+          <div class="project">
+            <h3>Project 2: Kriterion</h3>
+            <p>
+              A peer review platform to rate code quality and development
+              projects.
+            </p>
+          </div>
+          <div class="project">
+            <h3>Project 3: GServer</h3>
+            <p>A lightweight server framework for rapid backend prototyping.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          If you'd like to collaborate or just say hi, feel free to
+          <a href="mailto:ebenezer@example.com">email me</a>.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>© 2024 Ebenezer | Full Stack Developer</p>
+      </div>
+    </footer>
   </body>
 </html>
