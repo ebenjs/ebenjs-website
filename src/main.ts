@@ -1,4 +1,5 @@
 import './assets/main.css'
+import { inject } from "@vercel/analytics"
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
